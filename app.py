@@ -24,7 +24,7 @@ employment_map = {"employed": 1, "unemployed": 0}
 # Jika tombol diklik
 if st.button("Prediksi"):
     # Load model
-    model = joblib.load("model_credit.pkl")  # ganti dengan nama file model kamu
+    model = joblib.load("decision_tree_model.pkl")  # ganti dengan nama file model kamu
 
     # Buat DataFrame input
     input_data = pd.DataFrame([{
