@@ -26,7 +26,7 @@ person_income = st.number_input("Person Income", min_value=0, step=1)
 loan_grade = st.selectbox("Loan Grade", ["A", "B", "C", "D", "E", "F", "G"])
 loan_int_rate = st.number_input("Loan Interest Rate", min_value=0.0, step=0.01)
 loan_percent_income = st.number_input("Loan Percent Income", min_value=0.0, step=0.01)
-person_home_ownership = st.selectbox("Person Home Ownership", ["MORTGAGE", "RENT", "OTHER"])
+person_home_ownership = st.selectbox("Person Home Ownership", ["MORTGAGE", "RENT", "OWN"])
 cb_person_default_on_file = st.radio("CB Person Default on File", ["Y", "N"])
 
 if person_home_ownership == 'MORTGAGE':
