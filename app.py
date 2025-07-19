@@ -106,7 +106,7 @@ if st.button("Prediksi"):
     pred = model.predict(x_data_scaled)
 
     # Output
-    if pred == 1:
+    if pred == 0:
         st.success("Kredit LAYAK diberikan.")
     else:
         st.error("Kredit TIDAK layak diberikan.")
